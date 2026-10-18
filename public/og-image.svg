@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#08111f"/>
+  <circle cx="1000" cy="100" r="310" fill="#0b566a" opacity=".22"/>
+  <circle cx="1030" cy="110" r="210" fill="#35d8f2" opacity=".08"/>
+  <text x="100" y="190" fill="#35d8f2" font-family="monospace" font-size="24">DEVELOPER PORTFOLIO / 2026</text>
+  <text x="96" y="310" fill="#f4f8ff" font-family="Arial, sans-serif" font-weight="700" font-size="86">Zaid Haque</text>
+  <text x="100" y="390" fill="#aab8cc" font-family="Arial, sans-serif" font-size="36">Full-stack developer in progress.</text>
+  <path d="M100 455h160" stroke="#35d8f2" stroke-width="6" stroke-linecap="round"/>
+</svg>
