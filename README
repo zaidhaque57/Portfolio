@@ -1,0 +1,51 @@
+# Modern Developer Portfolio
+
+A high-performance, accessible, and responsive developer portfolio built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed to showcase production-grade projects, quantifiable technical competencies, and clean architectural boundaries.
+
+---
+
+## ⚡ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, React Server Components)
+- **Language:** [TypeScript](https://www.typescriptlang.org/) (Strict type-checking)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Package Manager:** npm / pnpm
+
+---
+
+## 🚀 Features
+
+- **Semantic HTML5 & Accessibility:** Screen-reader friendly hierarchy (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) with explicit ARIA labels.
+- **Measurable Skills Section:** Technical stack categorized by proficiency and real-world usage context rather than arbitrary progress percentages.
+- **Responsive Project Grid:** Fully responsive cards showcasing key metrics, system tags, live preview links, and source code repository triggers.
+- **Type-Safe Data Layer:** Projects and competencies decoupled into structured TypeScript models (`src/data/`) for seamless content updates.
+- **Fast Core Web Vitals:** Static rendering, optimized asset loading, and zero layout shifts.
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── public/                 # Static assets (images, icons, resume PDF)
+├── src/
+│   ├── app/
+│   │   ├── globals.css     # Tailwind directives and baseline CSS
+│   │   ├── layout.tsx      # Root layout, fonts, and OpenGraph metadata
+│   │   └── page.tsx        # Main entry page assembling semantic sections
+│   ├── components/
+│   │   ├── Contact.tsx     # Semantic contact channels (Email, LinkedIn, GitHub)
+│   │   ├── Footer.tsx      # Colophon and repository details
+│   │   ├── Hero.tsx        # Intro elevator pitch and quick actions
+│   │   ├── Navbar.tsx      # Accessible navigation bar
+│   │   ├── ProjectCard.tsx # Self-contained article element for individual projects
+│   │   ├── Projects.tsx    # Responsive grid layout wrapper
+│   │   └── Skills.tsx      # Grouped competency tables
+│   ├── data/
+│   │   ├── projects.ts     # Project dataset (links, descriptions, tags, metrics)
+│   │   └── skills.ts       # Structured skills and proficiencies
+│   └── types/
+│       └── index.ts        # Central TypeScript models and contracts
+├── tailwind.config.ts      # Theme styling configuration
+├── tsconfig.json           # Compiler rules & path aliases (@/*)
+└── package.json
